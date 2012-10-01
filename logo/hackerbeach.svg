@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="16"
+   height="16"
+   viewBox="0 0 126.72 126.72"
+   enable-background="new 0 0 792 612"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="hackerbeach.svg"
+   inkscape:export-filename="/home/user/hackerbeach.png"
+   inkscape:export-xdpi="720"
+   inkscape:export-ydpi="720"><metadata
+   id="metadata3043"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs3041" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1280"
+   inkscape:window-height="800"
+   id="namedview3039"
+   showgrid="true"
+   fit-margin-top="3"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="3"
+   inkscape:zoom="22.627417"
+   inkscape:cx="9.4163134"
+   inkscape:cy="6.0502665"
+   inkscape:window-x="0"
+   inkscape:window-y="-31"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"
+   showguides="true"
+   inkscape:guide-bbox="true"><inkscape:grid
+     type="xygrid"
+     id="grid3146"
+     empspacing="4"
+     visible="true"
+     enabled="true"
+     snapvisiblegridlinesonly="true"
+     originx="-3.5865408e-16px"
+     originy="-3px" /></sodipodi:namedview>
+
+
+<path
+   d="m 23.76,23.76 c -3.96,0 -7.92,3.96 -7.92,7.92 l 0,55.44 L 0,95.04 0,99 c 0,0 0,3.96 3.96,3.96 l 118.8,0 c 3.96,0 3.96,-3.96 3.96,-3.96 l 0,-3.96 -15.84,-7.92 0,-55.44 c 0,-3.96 -3.96,-7.92 -7.92,-7.92 z m 0,7.889062 79.2,0 0,47.520001 -7.92,0 C 53.182515,77.455153 57.209918,43.198627 83.16,47.550937 c -3.012495,-4.61869 -8.813728,-7.68632 -15.84,-7.92 -17.442109,0 -23.76,11.88 -31.68,23.76 -6.032985,9.049478 -8.253023,8.837921 -11.88,10.630126 z"
+   id="path3037"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="sscccsscccsssccccccscc" /></svg>
