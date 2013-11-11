@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { font: 15px sans-serif; color: #422; background-color: #AAA }
+      ul { background-color: #F22; border-radius:1em; width: 50em; margin: 5em }
+      ul li { padding: 1em }
+    </style>
+  </head>
+  <body>
+    <h1 id="caption"></h1>
+    <ul id="bullets"></ul>
+    <a href="2.html">noBackend</a>
+  </body>
+  <script>
+    function el(el) {
+      return document.getElementById(el);
+    }
+    function show(caption, bullets) {
+      el('caption').innerHTML = caption;
+      var str = '';
+      for(var i=0; i<bullets.length; i++) {
+        str += '<li><h1>'+bullets[i]+'</h1></li>';
+      }
+      el('bullets').innerHTML = str;
+    }
+
+    var slides = [{
+      caption: 'One Backend Per User: 100% data privacy / 0 scaling issues', bullets: [
+       'unhosted project', 'remotestorage.io'],
+    }, {
+      caption: 'The web has no "My Documents" folder', bullets: [
+       'software is moving to web and apps', 'apps'],
+    }, {
+      caption: 'redecentralize', bullets: [
+       ],
+    }, {
+      caption: 'open standards', bullets: [
+       ],
+    }, {
+      caption: 'remotestorage.io', bullets: [
+       'spec', '+ server(s)', '+ js lib(s)'],
+    }, {
+      caption: 'remotestorage spec', bullets: [
+       'GET/PUT/DELETE data store', '+ discovery', '+ auth'],
+    }, {
+      caption: 'per-user backend', bullets: [
+       ],
+    }, {
+      caption: 'cross-origin backend', bullets: [
+       ],
+    }, {
+      caption: 'IETF Internet Draft', bullets: [
+       ],
+    }, {
+      caption: 'CORS headers', bullets: [
+       ],
+    }, {
+      caption: 'remotestorage.js', bullets: [
+       ],
+    }, {
+      caption: 'remotestorage.js modules', bullets: [
+       ],
+    }, {
+      caption: 'future: legacy support', bullets: [
+       'Dropbox (coming soon)', 'GoogleDrive (coming soon)'],
+    }, {
+      caption: 'future: native device support', bullets: [
+       'Browser plugin?', 'PhoneGap?', 'Firefox OS?'],
+    }, {
+      caption: 'for now: write first apps!', bullets: [
+       'Litewrite', 'Sharesome', 'svg-edit', 'Grouptabs'],
+    }, {
+      caption: 'combination with sockethub', bullets: [
+       'remotestorage is only the "My Documents" folder', 'sockethub adds sending emails, tweets, etcetera'],
+    }];
+    var i=-1;
+    document.onclick = function() {
+      i++;
+      console.log('showing slide '+i);
+      show(slides[i].caption, slides[i].bullets);
+    };    
+  </script>
+</html>
